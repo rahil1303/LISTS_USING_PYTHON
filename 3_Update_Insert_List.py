@@ -1,1 +1,16 @@
-
+### INSERT THE ELEMENTS IN THE LIST CAN BE DONE IN THE FOLLOWING WAYS
+# 1. INSERTING AN ELEMENT AT THE BEGINNING OF THE LIST 
+myList1 = [1,2,3,4,5]
+print(myList1)
+myList1.insert(0,11)
+print(myList1)
+myList1.insert(4,16)
+print(myList1)
+# 2. INSERTING AN ELEMENT TO THE ANY GIVEN PLACE IN THE LIST
+# 3. INSERTING AN ELEMENT TO THE END OF THE LIST
+myList1.append(35)
+print(myList1)
+# 4. INSERTING ANOTHER LIST TO THE LIST
+myList2 = [41,42,43,44,45]
+myList2.extend(myList1)
+print(myList2)
